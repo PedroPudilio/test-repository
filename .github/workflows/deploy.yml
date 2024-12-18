@@ -33,5 +33,4 @@ jobs:
           cp -a build/. .
           git add .
           git commit -m "Deploy to GitHub Pages"
-          git pull origin gh-pages
-          git push origin gh-pages
+          git push -f origin gh-pages
